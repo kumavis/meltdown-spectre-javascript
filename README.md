@@ -4,7 +4,7 @@ This is a meltdown & spectre checker found online: https://codepen.io/internweb/
 This one didn't work for me because new Worker() refused to initialize inside the coderpen.io domain.
 So I 'forked' it here. You can check if your browser is vulnerable under the following URL:
 
-https://terjanq.github.io/meltdown-checker/
+https://kumavis.github.io/meltdown-spectre-javascript/meltdown-checker.html
 
 
 To make script working correctly using Google Chrome 63.0.3239.84 (64 bit) I had to enable SharedArrayBuffer in flags.
